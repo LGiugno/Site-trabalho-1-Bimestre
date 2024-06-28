@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-family: "Permanent Marker";
+    font-size: 3rem;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #993c3c;
+    text-decoration: none;
+    
+}
+
+#banner {
+    background-color: #555555;
+    background-size: cover;
+    color: #ffffff;;
+    padding: 100px 0;
+    text-align: center;
+    animation: aparecer 1s ease forwards;
+}
+
+#produtos {
+    padding: 50px 0;
+    background-color: #555555;
+    color: #000000;
+}
+.rede-social {
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.feedback{
+    height: 20rem;
+    width: 20rem;
+    
+}
+.produto {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #F2F5F4;
+    display: inline-block;
+    margin: 2rem;
+    background-color: #414141;
+    animation: aparecer 1s ease forwards;
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    transform: scale(0.8);
+}
+
+.img1{
+    height: 25rem;
+    width: 20rem;
+    background-image: url('imagens/1.jpeg');
+    background-size: cover;
+    transition: transform 0.3s ease;
+    transform: scale(0.8); 
+}
+.img1:hover{
+    background-image: url('imagens/1.jpeg');
+    background-size: cover;
+    transform: scale(1.0); 
+    
+    
+}
+.img2{
+    height: 25rem;
+    width: 20rem;
+    background-image: url('imagens/2.jpeg');
+    background-size: cover;
+    transition: transform 0.3s ease;
+    transform: scale(0.8); 
+}
+.img2:hover{
+    background-image: url('imagens/2.jpeg');
+    background-size: cover;
+    transform: scale(1.0); 
+    
+    
+}
+.img3{
+    height: 25rem;
+    width: 20rem;
+    background-image: url('imagens/4.jpeg');
+    background-size: cover;
+    transition: transform 0.3s ease;
+    transform: scale(0.8); 
+}
+.img3:hover{
+    background-image: url('imagens/4.jpeg');
+    background-size: cover;
+    transform: scale(1.0); 
+    
+    
+}
+.img4{
+    height: 25rem;
+    width: 20rem;
+    background-image: url('imagens/8.jpeg');
+    background-size: cover;
+    transition: transform 0.3s ease;
+    transform: scale(0.8); 
+}
+.img4:hover{
+    background-image: url('imagens/8.jpeg');
+    background-size: cover;
+    transform: scale(1.0); 
+    
+    
+}
+.img5{
+    height: 25rem;
+    width: 20rem;
+    background-image: url('imagens/6.jpeg');
+    background-size: cover;
+    transition: transform 0.3s ease;
+    transform: scale(0.8); 
+}
+.img5:hover{
+    background-image: url('imagens/6.jpeg');
+    background-size: cover;
+    transform: scale(1.0); 
+    
+    
+}
+.img6{
+    height: 25rem;
+    width: 20rem;
+    background-image: url('imagens/7.jpeg');
+    background-size: cover;
+    transition: transform 0.3s ease;
+    transform: scale(0.8); 
+}
+.img6:hover{
+    background-image: url('imagens/7.jpeg');
+    background-size: cover;
+    transform: scale(1.0); 
+    
+    
+}
+.img7{
+    height: 25rem;
+    width: 20rem;
+    background-image: url('imagens/3.jpeg');
+    background-size: cover;
+    transition: transform 0.3s ease;
+    transform: scale(0.8); 
+}
+.img7:hover{
+    background-image: url('imagens/3.jpeg');
+    background-size: cover;
+    transform: scale(1.0); 
+    
+    
+}
+footer{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 auto 0;
+}
+.footer-clientes{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 17.6% auto 0;
+}
+.footer-index{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 10.1% auto 0;
+}
+#banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #ffffff;;
+    padding:50px 0;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 3em;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+.produto {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    background-color: #555555;  
+    padding-left: 30px;
+    animation: aparecer 1s ease forwards;
+}
+.cliente{
+    padding-left: 50px;
+}
+body{background-color: #555555;}    
+.LG{color: #993636;}
+.L{color: #993636;}
+.G{color: #993636;}
